@@ -35,7 +35,8 @@ module.exports = {
     "Editing-Demos/Preview-a-Demo.mdx",
     "Editing-Demos/Publish-a-Demo.mdx",
     "Sharing-Demos/Overview.mdx",
-    "Sharing-Demos/iFrame-Embed.mdx"
+    "Sharing-Demos/iFrame-Embed.mdx",
+    "Sharing-Demos/Sharing-URL.mdx"
   ],
   layout: CustomLayout,
   props: {
