@@ -38,7 +38,8 @@ module.exports = {
     "Sharing-Demos/iFrame-Embed.mdx",
     "Sharing-Demos/Sharing-URL.mdx",
     "Tracking-and-Analyzing-Demos/Overview.mdx",
-    "Managing-Fable-Account/Overview.mdx"
+    "Managing-Fable-Account/Overview.mdx",
+    "Managing-Fable-Account/Demo-Library.mdx"
   ],
   layout: CustomLayout,
   props: {
