@@ -25,7 +25,8 @@ module.exports = {
     "Editing-Demos/Call-to-Actions.mdx",
     "Editing-Demos/Hotspot.mdx",
     "Editing-Demos/Effects.mdx",
-    "Editing-Demos/Advanced-Element-Picker.mdx"
+    "Editing-Demos/Advanced-Element-Picker.mdx",
+    "Editing-Demos/On-Screen-Edits.mdx"
   ],
   layout: CustomLayout,
   props: {
