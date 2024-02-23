@@ -22,7 +22,8 @@ module.exports = {
     "Editing-Demos/Video-Annotation.mdx",
     "Editing-Demos/Sizing-and-Positioning.mdx",
     "Editing-Demos/Branding.mdx",
-    "Editing-Demos/Call-to-Actions.mdx"    
+    "Editing-Demos/Call-to-Actions.mdx",
+    "Editing-Demos/Hotspot.mdx"
   ],
   layout: CustomLayout,
   props: {
