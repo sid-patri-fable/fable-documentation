@@ -31,7 +31,8 @@ module.exports = {
     "Editing-Demos/Adding-an-Image-to-a-Demo.mdx",
     "Editing-Demos/Designing-Loader.mdx",
     "Editing-Demos/Module.mdx",
-    "Editing-Demos/Setting-an-Entry-Point.mdx"
+    "Editing-Demos/Setting-an-Entry-Point.mdx",
+    "Editing-Demos/Preview-a-Demo.mdx"
   ],
   layout: CustomLayout,
   props: {
