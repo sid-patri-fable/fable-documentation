@@ -42,7 +42,9 @@ module.exports = {
     "Managing-Fable-Account/Demo-Library.mdx",
     "Managing-Fable-Account/User-Management.mdx",
     "Managing-Fable-Account/Billing.mdx",
-    "Integrations/Overview.mdx"
+    "Integrations/Overview.mdx",
+    "Miscellaneous/FAQs.mdx",
+    "Miscellaneous/Glossary.mdx"
   ],
   layout: CustomLayout,
   props: {
