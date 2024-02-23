@@ -20,7 +20,8 @@ module.exports = {
     "Editing-Demos/Types-of-Annotations.mdx",
     "Editing-Demos/Editing-a-Text-Annotation-Message.mdx",
     "Editing-Demos/Video-Annotation.mdx",
-    "Editing-Demos/Sizing-and-Positioning.mdx"
+    "Editing-Demos/Sizing-and-Positioning.mdx",
+    "Editing-Demos/Branding.mdx"
   ],
   layout: CustomLayout,
   props: {
