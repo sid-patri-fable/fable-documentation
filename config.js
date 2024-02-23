@@ -23,7 +23,8 @@ module.exports = {
     "Editing-Demos/Sizing-and-Positioning.mdx",
     "Editing-Demos/Branding.mdx",
     "Editing-Demos/Call-to-Actions.mdx",
-    "Editing-Demos/Hotspot.mdx"
+    "Editing-Demos/Hotspot.mdx",
+    "Editing-Demos/Effects.mdx"
   ],
   layout: CustomLayout,
   props: {
