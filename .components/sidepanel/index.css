@@ -10,6 +10,8 @@
   transition: all 0.3s ease;
   transform: translateX(-100%);
   background-color: #f2e6fc;
+  background-color: rgb(251, 246, 255);
+  border-right: 1px solid rgb(208, 208, 255);
   z-index: 1;
 }
 
@@ -79,6 +81,7 @@
     width: fit-content;
     transform: translateX(0%);
     border-radius: 0;
+    border: none;
   }
 
   .close-icon {
