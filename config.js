@@ -28,7 +28,8 @@ module.exports = {
     "Editing-Demos/Advanced-Element-Picker.mdx",
     "Editing-Demos/On-Screen-Edits.mdx",
     "Editing-Demos/Reordering-the-Demo.mdx",
-    "Editing-Demos/Adding-an-Image-to-a-Demo.mdx"
+    "Editing-Demos/Adding-an-Image-to-a-Demo.mdx",
+    "Editing-Demos/Designing-Loader.mdx"
   ],
   layout: CustomLayout,
   props: {
