@@ -11,8 +11,40 @@ module.exports = {
     baseUrl: "https://sharefable.com/"
   },
   orderOfPages: [
-    "test-installation",
-    "test-installation/two.mdx"
+    "Introduction/Welcome-to-Fable.mdx",
+    "Introduction/Quick-Start-Guide.mdx",
+    "Capturing-Demos/Overview.mdx",
+    "Capturing-Demos/Using-the-Extension.mdx",
+    "Capturing-Demos/Adding-Additional-Captures.mdx",
+    "Editing-Demos/Overview.mdx",
+    "Editing-Demos/Types-of-Annotations.mdx",
+    "Editing-Demos/Editing-a-Text-Annotation-Message.mdx",
+    "Editing-Demos/Video-Annotation.mdx",
+    "Editing-Demos/Sizing-and-Positioning.mdx",
+    "Editing-Demos/Branding.mdx",
+    "Editing-Demos/Call-to-Actions.mdx",
+    "Editing-Demos/Hotspot.mdx",
+    "Editing-Demos/Effects.mdx",
+    "Editing-Demos/Advanced-Element-Picker.mdx",
+    "Editing-Demos/On-Screen-Edits.mdx",
+    "Editing-Demos/Reordering-the-Demo.mdx",
+    "Editing-Demos/Adding-an-Image-to-a-Demo.mdx",
+    "Editing-Demos/Designing-Loader.mdx",
+    "Editing-Demos/Module.mdx",
+    "Editing-Demos/Setting-an-Entry-Point.mdx",
+    "Editing-Demos/Preview-a-Demo.mdx",
+    "Editing-Demos/Publish-a-Demo.mdx",
+    "Sharing-Demos/Overview.mdx",
+    "Sharing-Demos/iFrame-Embed.mdx",
+    "Sharing-Demos/Sharing-URL.mdx",
+    "Tracking-and-Analyzing-Demos/Overview.mdx",
+    "Managing-Fable-Account/Overview.mdx",
+    "Managing-Fable-Account/Demo-Library.mdx",
+    "Managing-Fable-Account/User-Management.mdx",
+    "Managing-Fable-Account/Billing.mdx",
+    "Integrations/Overview.mdx",
+    "Miscellaneous/FAQs.mdx",
+    "Miscellaneous/Glossary.mdx"
   ],
   layout: CustomLayout,
   props: {
@@ -88,13 +120,19 @@ module.exports = {
                 url: 'https://sharefable.com/podcast/mastering-b2b-demand-generation'
               },
               {
-                title: 'E-books',
+                title: 'Knowledge Base',
+                subtitle: 'Help you create compelling interactive demos',
+                logo: 'https://sharefable.com/logo/knowledge-base.svg',
+                url: 'https://docs.sharefable.com'
+              },
+              {
+                title: 'E-Books',
                 subtitle: 'Handy resources that all GTM teams will love',
                 logo: 'https://sharefable.com/logo/e-books-logo.svg',
                 url: 'https://sharefable.com/ebooks'
               },
               {
-                title: 'Fable blog',
+                title: 'Fable Blog',
                 subtitle: 'Marketing & sales folks - you do not want to miss this!',
                 logo: 'https://sharefable.com/logo/blog-logo.svg',
                 url: 'https://sharefable.com/blog'
@@ -153,8 +191,9 @@ module.exports = {
           links: [
             { title: 'Fable Champs', url: 'https://sharefable.com/growth-stories' },
             { title: 'Fable Untold', url: 'https://sharefable.com/podcast/mastering-b2b-demand-generation' },
-            { title: 'E-books', url: 'https://sharefable.com/ebooks' },
-            { title: 'Fable blog', url: 'https://sharefable.com/blog' },
+            { title: 'Knowledge Base', url: 'https://docs.sharefable.com' },
+            { title: 'E-Books', url: 'https://sharefable.com/ebooks' },
+            { title: 'Fable Blog', url: 'https://sharefable.com/blog' },
             { title: 'Privacy Policy', url: 'https://sharefable.com/privacy-policy' },
           ]
         },
