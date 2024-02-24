@@ -4,6 +4,7 @@ import "./index.css"
 const flattenTree = (root) => {
   const stack = root
   .map(node => ({node, depth: 0}))
+  .reverse()
   .filter(el => el.node.title !== ".components")
   .filter(el => {
     if(!el.node.url && el.node.children?.length <= 0) {
