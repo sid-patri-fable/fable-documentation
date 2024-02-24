@@ -11,6 +11,14 @@ module.exports = {
     baseUrl: "https://sharefable.com/"
   },
   orderOfPages: [
+    "Introduction",
+    "Capturing-Demos",
+    "Editing-Demos",
+    "Sharing-Demos",
+    "Tracking-and-Analyzing-Demos",
+    "Managing-Fable-Account",
+    "Integrations",
+    "Miscellaneous",
     "Introduction/Welcome-to-Fable.mdx",
     "Introduction/Quick-Start-Guide.mdx",
     "Capturing-Demos/Overview.mdx",
