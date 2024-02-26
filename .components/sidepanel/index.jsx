@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import "./index.css"
 
 const flattenTree = (root) => {
@@ -33,27 +34,27 @@ const flattenTree = (root) => {
 
 
 const Sidepanel = (props) => {
-  
+
   return (
     <div className={`sidepanel-con ${props.show === "init" ? "" : props.show ? "show" : "hide" }`}>
       <ul className='sidepanel-list'>
         {flattenTree(props.linksTree).map((link, idx) => {
           return (
             <li
-              style={{
-                marginLeft: link.depth * 10
-              }}
-              className={`sidepanel-list-item ${link.url ? "url" : ""}`}
-               key={idx}
+              className={`sidepanel-list-item depth-${link.depth} ${link.url ? "url" : ""}`}
+              key={idx}
             >
-              <a 
-                href={link.url}
-                style={{
-                  background: 'transparent'
-                }}
-              >{link.title}</a>
+              {link.url && (
+                <NavLink
+                  to={link.url}
+                  className={({ isActive }) => (isActive ? "active link-text" : "inactive link-text")}
+                >
+                  {link.title}
+                </NavLink>
+              )}
+              {!link.url && <div className='link-text'>{link.title}</div>}
             </li>
-          )
+          );
         })}
       </ul>
       <button type="button" onClick={props.closeSidepanel} className='close-icon'> 
