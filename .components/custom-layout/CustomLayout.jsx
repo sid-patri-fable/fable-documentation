@@ -36,7 +36,7 @@ const CustomLayout = (props) => {
               }
             />
           </button>
-          {props.children}
+          <div className="mdx-content">{props.children}</div>
           <SupportBanner />
           <ContentFooter />
         </div>
