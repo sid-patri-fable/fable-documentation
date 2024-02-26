@@ -41,7 +41,7 @@
   height: calc(100vh - 120px - 7rem);
   overflow-y: auto;
   gap: 0.25rem;
-  margin-top: 2.75rem;
+  margin-top: 4rem;
 }
 
 .sidepanel-list::-webkit-scrollbar {
@@ -67,6 +67,7 @@
 .sidepanel-list-item.depth-0 {
   font-weight: 600;
   font-size: 16px;
+  margin-top: 1rem;
 }
 
 .sidepanel-list-item.depth-1 {
@@ -84,7 +85,7 @@
   color: inherit;
   background-color: transparent;
   border-radius: 5px;
-  padding: 0.5rem 0.25rem;
+  padding: 0.25rem;
 }
 
 .sidepanel-list-item .link-text.active {

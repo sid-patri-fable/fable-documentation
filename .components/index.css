@@ -8,10 +8,13 @@
   margin: 0 auto;
   margin-bottom: 2rem;
   display: flex;
+  gap: 1rem;
 }
 
 .content {
+  max-width: 680px;
   padding: 0rem 1rem;
+  margin: auto;
   flex: 1;
 }
 
@@ -74,7 +77,8 @@
   }
 
   .content {
-    padding: 1.5rem 2rem;
+    padding: 3.25rem 2rem;
+    margin: 0;
   }
 }
 
