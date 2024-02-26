@@ -40,7 +40,7 @@ const CustomLayout = (props) => {
           <SupportBanner />
           <ContentFooter />
         </div>
-        <TOC toc={props.toc.length && props.toc} />
+        {/* <TOC toc={props.toc.length && props.toc} /> */}
       </div>
       <Footer />
     </>
