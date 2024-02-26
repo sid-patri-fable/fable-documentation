@@ -8,15 +8,34 @@
   margin: 0 auto;
   margin-bottom: 2rem;
   display: flex;
+  gap: 1rem;
 }
 
 .content {
+  max-width: 680px;
   padding: 0rem 1rem;
+  margin: auto;
   flex: 1;
+}
+
+.content .fable-embed-con {
+  position: relative;
+  height: 45vh;
+  margin-bottom: 1rem;
+}
+
+.content .fable-embed-con iframe {
+  position: static;
+  height: 100% !important;
+  max-width: 1280px;
 }
 
 .content img {
   max-width: 100%;
+}
+
+.mdx-content {
+  min-height: 80vh;
 }
 
 .menu-icon {
@@ -74,7 +93,34 @@
   }
 
   .content {
-    padding: 1.5rem 2rem;
+    padding: 3.25rem 2rem;
+    margin: 0;
+  }
+
+  .content .fable-embed-con {
+    height: 60vh;
+  }
+
+  .content .fable-embed-con iframe {
+    position: absolute;
+  }
+}
+
+@media (min-width: 1100px) { 
+  .content .fable-embed-con iframe {
+    width: calc(100vw - 290px - 14rem);
+  }
+}
+
+@media (min-width: 1600px) { 
+  .content .fable-embed-con iframe {
+    width: calc(100vw - 290px - 25rem);
+  }
+}
+
+@media (min-width: 1900px) { 
+  .content .fable-embed-con iframe {
+    width: calc(100vw - 290px - 30rem);
   }
 }
 
