@@ -18,6 +18,17 @@
   flex: 1;
 }
 
+.content .fable-embed-con {
+  position: relative;
+  height: 60vh;
+}
+
+.content .fable-embed-con iframe {
+  position: static;
+  height: 100%;
+  max-width: 1280px;
+}
+
 .content img {
   max-width: 100%;
 }
@@ -79,6 +90,29 @@
   .content {
     padding: 3.25rem 2rem;
     margin: 0;
+  }
+
+  .content .fable-embed-con iframe {
+    position: absolute;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1100px) { 
+  .content .fable-embed-con iframe {
+    width: calc(100vw - 290px - 14rem);
+  }
+}
+
+@media (min-width: 1600px) { 
+  .content .fable-embed-con iframe {
+    width: calc(100vw - 290px - 25rem);
+  }
+}
+
+@media (min-width: 1900px) { 
+  .content .fable-embed-con iframe {
+    width: calc(100vw - 290px - 30rem);
   }
 }
 
