@@ -20,12 +20,13 @@
 
 .content .fable-embed-con {
   position: relative;
-  height: 60vh;
+  height: 45vh;
+  margin-bottom: 1rem;
 }
 
 .content .fable-embed-con iframe {
   position: static;
-  height: 100%;
+  height: 100% !important;
   max-width: 1280px;
 }
 
@@ -92,9 +93,12 @@
     margin: 0;
   }
 
+  .content .fable-embed-con {
+    height: 60vh;
+  }
+
   .content .fable-embed-con iframe {
     position: absolute;
-    height: 100%;
   }
 }
 
