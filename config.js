@@ -46,7 +46,7 @@ module.exports = {
     "Sharing-Demos/iFrame-Embed.mdx",
     "Sharing-Demos/Sharing-URL.mdx",
     "Tracking-and-Analyzing-Demos/Overview.mdx",
-    "Tracking-and-Analyzing-Demos/Demo-Insights.mdx",
+    "Tracking-and-Analyzing-Demos/Demo-Level-Insights.mdx",
     "Managing-Fable-Account/Overview.mdx",
     "Managing-Fable-Account/Demo-Library.mdx",
     "Managing-Fable-Account/User-Management.mdx",
