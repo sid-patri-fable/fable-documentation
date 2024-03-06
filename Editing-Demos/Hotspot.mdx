@@ -7,6 +7,12 @@ ogTitle: Hotspot
 ogDescription: Step-by-step guide to using the hotspot feature in Fable.
 ogImage: https://github.com/sid-patri-fable/fable-documentation/assets/155963795/b4e5b310-ef91-4b56-b2f6-6420de9d7fe1
 ---
+
+import React from 'react'
+import {Test} from "../.components/fable-hoc/test.jsx"
+import {FableHoc} from "../.components/fable-hoc/index.jsx"
+import Fable from "fable-hoc"
+
 Demos created using Fable are interactive by default - i.e. the consumer of a demo not only can navigate forward by clicking on ‘Next’ but also on the element of focus just the way they would have in the real web page/application. 
 
 ## Customizing Hotspot
@@ -15,6 +21,13 @@ In the Hotspot section, you can turn on/turn off the interactivity, hide the ann
 
 The following interactive demo shows how you can customize the above options within Fable.
 
+<Test />
+<Fable
+layout="sidebyside"
+demoRid="test-get2pic0iiosnvbo"
+origin="http://localhost:3000"
+contentWidthPercentage={51}
+/>
 <div className="fable-embed-con">
 <iframe 
    style={{border: "1px solid rgba(0, 0, 0, 0.1)", height: "60vh" }} 
