@@ -2,11 +2,14 @@ import React, { useEffect, useState } from "react";
 import "../index.css";
 import TOC from "../toc";
 import SupportBanner from "../support-banner";
+import { useSearchParams } from 'react-router-dom';
 
 const menuIconUrl =
   "https://documentden-deployments.s3.us-east-1.amazonaws.com/public/2058d1f5-f692-4341-b4dc-2014ccad5ecc";
 
 const CustomLayout = (props) => {
+  let [searchParams, setSearchParams] = useSearchParams();
+
   const {
     headerComp: Header,
     sidepanelComp: Sidepanel,
@@ -15,6 +18,16 @@ const CustomLayout = (props) => {
   } = props;
 
   const [showSidePanel, setShowSidePanel] = useState("init");
+
+  if (searchParams.get('mini')) {
+    return (
+      <div style={{ maxWidth: '680px', padding: '1rem' }} className='main-wrapper'>
+        <main className='main-con'>
+        <div className="mdx-content">{props.children}</div>
+        </main>
+      </div>
+    )
+  }
 
   return (
     <>
