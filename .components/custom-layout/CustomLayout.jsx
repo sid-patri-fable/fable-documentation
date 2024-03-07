@@ -21,11 +21,9 @@ const CustomLayout = (props) => {
 
   if (searchParams.get('mini')) {
     return (
-      <div style={{ maxWidth: '680px', padding: '1rem' }} className='main-wrapper'>
-        <main className='main-con'>
+      <main style={{ maxWidth: '680px', padding: '1rem' }} className='main-con'>
         <div className="mdx-content">{props.children}</div>
-        </main>
-      </div>
+      </main>
     )
   }
 
@@ -37,7 +35,7 @@ const CustomLayout = (props) => {
         <div className="content">
           <button type="button" className="menu-icon">
             <img
-              style={{ cursor: "pointer"}}
+              style={{ cursor: "pointer" }}
               src={menuIconUrl}
               alt=""
               width={28}
