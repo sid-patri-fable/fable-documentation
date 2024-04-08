@@ -11,4 +11,4 @@ const retentionB2B = () => {
   }
 };
 
-retentionScript();
+retentionB2B();
