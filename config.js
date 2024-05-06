@@ -51,6 +51,7 @@ module.exports = {
     "Managing-Fable-Account/User-Management.mdx",
     "Managing-Fable-Account/Billing.mdx",
     "Integrations/Overview.mdx",
+    "Integrations/Zapier.mdx",
     "Miscellaneous/FAQs.mdx",
     "Miscellaneous/Glossary.mdx",
   ],
