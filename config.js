@@ -7,7 +7,7 @@ module.exports = {
   urlMapping: {
     globalPrefix: "/",
     entries: {},
-    baseUrl: "https://sharefable.com/",
+    baseUrl: "https://help.sharefable.com/",
   },
   orderOfPages: [
     "Introduction",
