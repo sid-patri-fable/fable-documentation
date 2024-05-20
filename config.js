@@ -39,6 +39,7 @@ module.exports = {
     "Editing-Demos/Reordering-the-Demo.mdx",
     "Editing-Demos/Adding-an-Image-to-a-Demo.mdx",
     "Editing-Demos/Designing-Loader.mdx",
+    "Editing-Demos/Lead-Form.mdx",
     "Editing-Demos/Module.mdx",
     "Editing-Demos/Setting-an-Entry-Point.mdx",
     "Editing-Demos/Preview-a-Demo.mdx",
