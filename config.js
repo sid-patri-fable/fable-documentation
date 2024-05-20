@@ -25,7 +25,7 @@ module.exports = {
     "Capturing-Demos/Using-the-Extension.mdx",
     "Capturing-Demos/Adding-Additional-Captures.mdx",
     "Editing-Demos/Overview.mdx",
-    "Editing-Demos/Types-of-Annotations.mdx",
+    "Editing-Demos/Types-of-Guides.mdx",
     "Editing-Demos/Editing-a-Text-Annotation-Message.mdx",
     "Editing-Demos/Video-Annotation.mdx",
     "Editing-Demos/Sizing-and-Positioning.mdx",
