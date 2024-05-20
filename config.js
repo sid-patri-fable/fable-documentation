@@ -20,7 +20,7 @@ module.exports = {
     "Miscellaneous",
     "Introduction/Welcome-to-Fable.mdx",
     "Introduction/Quick-Start-Guide.mdx",
-    "Introduction/Installing-the-Chrome-Extension.mdx",
+    "Introduction/Fable-Chrome-Extension.mdx",
     "Capturing-Demos/Overview.mdx",
     "Capturing-Demos/Using-the-Extension.mdx",
     "Capturing-Demos/Adding-Additional-Captures.mdx",
