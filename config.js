@@ -28,6 +28,7 @@ module.exports = {
     "Editing-Demos/Types-of-Guides.mdx",
     "Editing-Demos/Editing-a-Text-Guide-Message.mdx",
     "Editing-Demos/Video-Guide-Message.mdx",
+    "Editing-Demos/Multi-Guide.mdx",
     "Editing-Demos/Sizing-and-Positioning.mdx",
     "Editing-Demos/Branding.mdx",
     "Editing-Demos/Call-to-Actions.mdx",
