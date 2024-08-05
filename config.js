@@ -234,7 +234,7 @@ module.exports = {
               title: "Fable Untold",
               url: "https://sharefable.com/podcast/mastering-b2b-demand-generation",
             },
-            { title: "Knowledge Base", url: "https://docs.sharefable.com" },
+            { title: "Help Center", url: "https://docs.sharefable.com" },
             { title: "E-Books", url: "https://sharefable.com/ebooks" },
             { title: "Fable Blog", url: "https://sharefable.com/blog" },
           ],
