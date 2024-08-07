@@ -1,6 +1,7 @@
 import Header from "./.components/header/Header.jsx";
 import CustomLayout from "./.components/custom-layout/CustomLayout.jsx";
 import CustomSidepanel from "./.components/sidepanel/index.jsx";
+import Footer from "./.components/footer/Footer.jsx";
 
 module.exports = {
   version: "1.0.0",
@@ -204,6 +205,7 @@ module.exports = {
     },
     content: {},
     footer: {
+      customComponent: Footer,
       logo: "https://sharefable.com/fable_footer-logo.svg",
       copyright: "Fable © 2024",
       links: [
@@ -295,6 +297,28 @@ module.exports = {
               url: "https://sharefable.com/comparison/fable-vs-testbox",
             },
           ],
+        },
+      ],
+      g2Badges: [
+        {
+         source: 'https://web-git-add-g2-tags-share-fable.vercel.app/g2-badges/HighPerformer.svg',
+         name: 'High Performer',
+        },
+        {
+         source: 'https://web-git-add-g2-tags-share-fable.vercel.app/g2-badges/EasiestToUse.svg',
+         name: 'Easiest To Use',
+        },
+        {
+         source: 'https://web-git-add-g2-tags-share-fable.vercel.app/g2-badges/FastestImplementation.svg',
+         name: 'Fastest Implementation',
+        },
+        {
+         source: 'https://web-git-add-g2-tags-share-fable.vercel.app/g2-badges/BestEstimatedROI.svg',
+         name: 'Best Estimated ROI',
+        },
+        {
+         source: 'https://web-git-add-g2-tags-share-fable.vercel.app/g2-badges/EasiestToDoBusinessWith.svg',
+         name: 'Easiest To Do Business With',
         },
       ],
     },
