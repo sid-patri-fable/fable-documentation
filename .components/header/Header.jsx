@@ -397,7 +397,8 @@ function Menu(props) {
               background: 'linear-gradient(90deg,#fedf64,#ff7450,#7567ff)',
               borderRadius: '6px',
               padding: '1px',
-              height: 'fit-content'
+              height: 'fit-content',
+              margin: 'auto 0',
             }}
           >
             <div
@@ -432,14 +433,16 @@ function Menu(props) {
               >
                 <p
                   style={{
-                    lineHeight: '1',
+                    lineHeight: '1.5',
                     margin: '0',
                     fontWeight: '600',
-                    fontSize: '0.9rem'
+                    fontSize: '0.9rem',
+                    maxWidth: '13rem',
                   }}
                 >
                   {props.banner.heading}
                 </p>
+                <img src={props.banner.image.url}></img>
                 <p
                   style={{
                     lineHeight: '1',
