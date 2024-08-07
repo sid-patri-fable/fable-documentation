@@ -8,6 +8,8 @@ ogDescription: Fable's integration for Slack delivers realtime notification to S
 ogImage: https://documentden-deployments.s3.us-east-1.amazonaws.com/public/84b81386-6273-4e2c-96d8-a61a0d28a2a5
 ---
 
+import FableEmbed from "../.components/fable-embed";
+
 # Overview
 
 With Fable's integration for Slack, get notified in realtime whenever your buyers interact with a demo. This integration also unfurls demo URL in Slack and provides contextual action buttons with the unfuled content.
@@ -41,12 +43,4 @@ That's it.
 
 Following is an interactive demo on how to setup the integration
 
-<div className="fable-embed-con">
-<iframe 
-   style={{border: "1px solid rgba(0, 0, 0, 0.1)", height: "60vh" }} 
-   width="100%" 
-   height="100%" 
-   src="https://app.sharefable.com/embed/demo/slack-fable-5g46zc1jnwt0qdqy" 
-   allowFullScreen
-></iframe>
-</div>
+<FableEmbed src="https://app.sharefable.com/embed/demo/slack-fable-5g46zc1jnwt0qdqy" />
