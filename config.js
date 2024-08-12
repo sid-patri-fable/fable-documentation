@@ -65,13 +65,13 @@ module.exports = {
     header: {
       customComponent: Header,
       logo: {
-        imageUrl: "https://sharefable.com/fable-logo.svg",
+        imageUrl: "https://www.sharefable.com/fable-logo.svg",
         title: "Fable Docs",
       },
       navLinks: {
         alignment: "right",
         links: [
-          { title: "Product", url: "https://sharefable.com/products" },
+          { title: "Product", url: "https://www.sharefable.com/products" },
           {
             title: "Solutions",
             subtitle: "The ultimate demo platform for all your GTM needs",
@@ -79,32 +79,32 @@ module.exports = {
               {
                 title: "Marketing",
                 subtitle: "Increase conversions from your existing funnel",
-                logo: "https://sharefable.com/logo/marketing-logo.svg",
-                url: "https://sharefable.com/solutions/marketing",
+                logo: "https://www.sharefable.com/logo/marketing-logo.svg",
+                url: "https://www.sharefable.com/solutions/marketing",
               },
               {
                 title: "Sales",
                 subtitle: "Create deal-winning demos every single time",
-                logo: "https://sharefable.com/logo/sales-logo.svg",
-                url: "https://sharefable.com/solutions/sales",
+                logo: "https://www.sharefable.com/logo/sales-logo.svg",
+                url: "https://www.sharefable.com/solutions/sales",
               },
               {
                 title: "Presales",
                 subtitle: "Scale demo environments & personalize in minutes",
-                logo: "https://sharefable.com/logo/presales-logo.svg",
-                url: "https://sharefable.com/solutions/presales",
+                logo: "https://www.sharefable.com/logo/presales-logo.svg",
+                url: "https://www.sharefable.com/solutions/presales",
               },
               {
                 title: "Partnerships",
                 subtitle: "Enable partners and skyrocket channel sales",
-                logo: "https://sharefable.com/logo/partnerships-logo.svg",
-                url: "https://sharefable.com/solutions/partnerships",
+                logo: "https://www.sharefable.com/logo/partnerships-logo.svg",
+                url: "https://www.sharefable.com/solutions/partnerships",
               },
               {
                 title: "Learning & Development",
                 subtitle: "Supercharge training and onboarding",
-                logo: "https://sharefable.com/logo/learning-and-development-logo.svg",
-                url: "https://sharefable.com/solutions/learning-and-development",
+                logo: "https://www.sharefable.com/logo/learning-and-development-logo.svg",
+                url: "https://www.sharefable.com/solutions/learning-and-development",
               },
             ],
             banner: {
@@ -120,7 +120,7 @@ module.exports = {
           },
           {
             title: "Testimonials",
-            url: "https://sharefable.com/customer-love",
+            url: "https://www.sharefable.com/customer-love",
           },
           {
             title: "Resources",
@@ -129,40 +129,40 @@ module.exports = {
               {
                 title: "Fable Champs",
                 subtitle: "How hotshot SaaS companies achieved hypergrowth",
-                logo: "https://sharefable.com/logo/fable-champs-logo.svg",
-                url: "https://sharefable.com/growth-stories",
+                logo: "https://www.sharefable.com/logo/fable-champs-logo.svg",
+                url: "https://www.sharefable.com/growth-stories",
               },
               {
                 title: "Fable Untold",
                 subtitle:
                   "The small corner of the internet for inspiring growth stories",
-                logo: "https://sharefable.com/logo/fables-untold-logo.svg",
-                url: "https://sharefable.com/podcast/mastering-b2b-demand-generation",
+                logo: "https://www.sharefable.com/logo/fables-untold-logo.svg",
+                url: "https://www.sharefable.com/podcast/mastering-b2b-demand-generation",
               },
               {
                 title: "Knowledge Base",
                 subtitle: "Help you create compelling interactive demos",
-                logo: "https://sharefable.com/logo/knowledge-base.svg",
+                logo: "https://www.sharefable.com/logo/knowledge-base.svg",
                 url: "https://docs.sharefable.com",
               },
               {
                 title: "E-Books",
                 subtitle: "Handy resources that all GTM teams will love",
-                logo: "https://sharefable.com/logo/e-books-logo.svg",
-                url: "https://sharefable.com/ebooks",
+                logo: "https://www.sharefable.com/logo/e-books-logo.svg",
+                url: "https://www.sharefable.com/ebooks",
               },
               {
                 title: "Fable Blog",
                 subtitle:
                   "Marketing & sales folks - you do not want to miss this!",
-                logo: "https://sharefable.com/logo/blog-logo.svg",
-                url: "https://sharefable.com/blog",
+                logo: "https://www.sharefable.com/logo/blog-logo.svg",
+                url: "https://www.sharefable.com/blog",
               },
               {
                 title: "Demo Showcase",
                 subtitle: "Examples of interactive demos created using Fable",
-                logo: "https://sharefable.com/logo/demo-showcase-logo.svg",
-                url: "https://sharefable.com/demo-showcase",
+                logo: "https://www.sharefable.com/logo/demo-showcase-logo.svg",
+                url: "https://www.sharefable.com/demo-showcase",
               },
             ],
             banner: {
@@ -176,7 +176,7 @@ module.exports = {
               },
             },
           },
-          { title: "Pricing", url: "https://sharefable.com/pricing" },
+          { title: "Pricing", url: "https://www.sharefable.com/pricing" },
         ],
       },
       cta: {
@@ -192,7 +192,7 @@ module.exports = {
         {
           type: "primary",
           title: "Get a demo",
-          url: "https://sharefable.com/get-a-demo",
+          url: "https://www.sharefable.com/get-a-demo",
         },
       ],
     },
@@ -201,7 +201,7 @@ module.exports = {
     },
     content: {},
     footer: {
-      logo: "https://sharefable.com/fable_footer-logo.svg",
+      logo: "https://www.sharefable.com/fable_footer-logo.svg",
       copyright: "Fable © 2024",
       links: [
         {
@@ -209,20 +209,20 @@ module.exports = {
           links: [
             {
               title: "Marketing",
-              url: "https://sharefable.com/solutions/marketing",
+              url: "https://www.sharefable.com/solutions/marketing",
             },
-            { title: "Sales", url: "https://sharefable.com/solutions/sales" },
+            { title: "Sales", url: "https://www.sharefable.com/solutions/sales" },
             {
               title: "Presales",
-              url: "https://sharefable.com/solutions/presales",
+              url: "https://www.sharefable.com/solutions/presales",
             },
             {
               title: "Partnerships",
-              url: "https://sharefable.com/solutions/partnerships",
+              url: "https://www.sharefable.com/solutions/partnerships",
             },
             {
               title: "Learning & Development",
-              url: "https://sharefable.com/solutions/learning-and-development",
+              url: "https://www.sharefable.com/solutions/learning-and-development",
             },
           ],
         },
@@ -231,18 +231,18 @@ module.exports = {
           links: [
             {
               title: "Fable Champs",
-              url: "https://sharefable.com/growth-stories",
+              url: "https://www.sharefable.com/growth-stories",
             },
             {
               title: "Fable Untold",
-              url: "https://sharefable.com/podcast/mastering-b2b-demand-generation",
+              url: "https://www.sharefable.com/podcast/mastering-b2b-demand-generation",
             },
             { title: "Knowledge Base", url: "https://docs.sharefable.com" },
-            { title: "E-Books", url: "https://sharefable.com/ebooks" },
-            { title: "Fable Blog", url: "https://sharefable.com/blog" },
+            { title: "E-Books", url: "https://www.sharefable.com/ebooks" },
+            { title: "Fable Blog", url: "https://www.sharefable.com/blog" },
             {
               title: "Demo Showcase",
-              url: "https://sharefable.com/demo-showcase",
+              url: "https://www.sharefable.com/demo-showcase",
             },
           ],
         },
@@ -251,7 +251,7 @@ module.exports = {
           links: [
             {
               title: "Testimonials",
-              url: "https://sharefable.com/customer-love",
+              url: "https://www.sharefable.com/customer-love",
             },
             {
               title: "LinkedIn",
@@ -260,7 +260,7 @@ module.exports = {
             { title: "Twitter", url: "https://twitter.com/sharefable" },
             {
               title: "Privacy Policy",
-              url: "https://sharefable.com/privacy-policy",
+              url: "https://www.sharefable.com/privacy-policy",
             },
             {
               title: "Affiliate Program",
@@ -273,27 +273,27 @@ module.exports = {
           links: [
             {
               title: "Fable vs Navattic",
-              url: "https://sharefable.com/comparison/fable-vs-navattic",
+              url: "https://www.sharefable.com/comparison/fable-vs-navattic",
             },
             {
               title: "Fable vs Demostack",
-              url: "https://sharefable.com/comparison/fable-vs-demostack",
+              url: "https://www.sharefable.com/comparison/fable-vs-demostack",
             },
             {
               title: "Fable vs Reprise",
-              url: "https://sharefable.com/comparison/fable-vs-reprise",
+              url: "https://www.sharefable.com/comparison/fable-vs-reprise",
             },
             {
               title: "Fable vs Walnut",
-              url: "https://sharefable.com/comparison/fable-vs-walnut",
+              url: "https://www.sharefable.com/comparison/fable-vs-walnut",
             },
             {
               title: "Fable vs Storylane",
-              url: "https://sharefable.com/comparison/fable-vs-storylane",
+              url: "https://www.sharefable.com/comparison/fable-vs-storylane",
             },
             {
               title: "Fable vs Testbox",
-              url: "https://sharefable.com/comparison/fable-vs-testbox",
+              url: "https://www.sharefable.com/comparison/fable-vs-testbox",
             },
           ],
         },
