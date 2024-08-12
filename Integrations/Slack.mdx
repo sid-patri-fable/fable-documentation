@@ -6,7 +6,10 @@ bannerImg: https://documentden-deployments.s3.us-east-1.amazonaws.com/public/84b
 ogTitle: Connect Fable with Slack and get alerts as soon as your buyers interact with your demo
 ogDescription: Fable's integration for Slack delivers realtime notification to Slack whenever your buyers interacts with your demo. This integration helps Slack unfurls demo URL as well.
 ogImage: https://documentden-deployments.s3.us-east-1.amazonaws.com/public/84b81386-6273-4e2c-96d8-a61a0d28a2a5
+canonicalUrl: https://help.sharefable.com/Integrations/Slack
 ---
+
+import FableEmbed from "../.components/fable-embed";
 
 # Overview
 
@@ -41,12 +44,4 @@ That's it.
 
 Following is an interactive demo on how to setup the integration
 
-<div className="fable-embed-con">
-<iframe 
-   style={{border: "1px solid rgba(0, 0, 0, 0.1)", height: "60vh" }} 
-   width="100%" 
-   height="100%" 
-   src="https://app.sharefable.com/embed/demo/slack-fable-5g46zc1jnwt0qdqy" 
-   allowFullScreen
-></iframe>
-</div>
+<FableEmbed src="https://app.sharefable.com/embed/demo/slack-fable-5g46zc1jnwt0qdqy" />
