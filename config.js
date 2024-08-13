@@ -212,10 +212,6 @@ module.exports = {
             },
             { title: "Sales", url: "https://www.sharefable.com/solutions/sales" },
             {
-              title: "Presales",
-              url: "https://www.sharefable.com/solutions/presales",
-            },
-            {
               title: "Partnerships",
               url: "https://www.sharefable.com/solutions/partnerships",
             },
@@ -258,8 +254,16 @@ module.exports = {
               url: "https://www.sharefable.com/privacy-policy",
             },
             {
+              title: "Terms of Service",
+              url: "https://www.sharefable.com/terms-of-service",
+            },
+            {
               title: "Affiliate Program",
               url: "https://www.sharefable.com/affiliate-program",
+            },
+            {
+              title: "Contact Support",
+              url: "https://www.sharefable.com/contact-support",
             },
           ],
         },
