@@ -89,12 +89,6 @@ module.exports = {
                 url: "https://www.sharefable.com/solutions/sales",
               },
               {
-                title: "Presales",
-                subtitle: "Scale demo environments & personalize in minutes",
-                logo: "https://www.sharefable.com/logo/presales-logo.svg",
-                url: "https://www.sharefable.com/solutions/presales",
-              },
-              {
                 title: "Partnerships",
                 subtitle: "Enable partners and skyrocket channel sales",
                 logo: "https://www.sharefable.com/logo/partnerships-logo.svg",
