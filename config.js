@@ -113,7 +113,7 @@ module.exports = {
                 url: "https://www.g2.com/products/pyxis-voyager-inc-fable/reviews",
               },
               image: {
-                url: "https://sharefable.com/g2-badges/usersLoveUs.svg",
+                url: "https://www.sharefable.com/g2-badges/usersLoveUs.svg",
               }
             },
           },
@@ -125,20 +125,20 @@ module.exports = {
                 title: "Fable Blog",
                 subtitle:
                   "Marketing & sales folks - you do not want to miss this!",
-                logo: "https://sharefable.com/logo/blog-logo.svg",
-                url: "https://sharefable.com/blog",
+                logo: "https://www.sharefable.com/logo/blog-logo.svg",
+                url: "https://www.sharefable.com/blog",
               },
               {
                 title: "Help Center",
                 subtitle: "Help you create compelling interactive demos",
-                logo: "https://sharefable.com/logo/knowledge-base.svg",
+                logo: "https://www.sharefable.com/logo/knowledge-base.svg",
                 url: "https://docs.sharefable.com",
               },
               {
                 title: "E-Books",
                 subtitle: "Handy resources that all GTM teams will love",
-                logo: "https://sharefable.com/logo/e-books-logo.svg",
-                url: "https://sharefable.com/ebooks",
+                logo: "https://www.sharefable.com/logo/e-books-logo.svg",
+                url: "https://www.sharefable.com/ebooks",
               },
               {
                 title: "Fable Champs",
@@ -156,8 +156,8 @@ module.exports = {
               {
                 title: "Testimonials",
                 subtitle: "Hear it from the horses' mouth why businesses love us",
-                logo: "https://sharefable.com/logo/testimonials.svg",
-                url: "https://sharefable.com/testimonials",
+                logo: "https://www.sharefable.com/logo/testimonials.svg",
+                url: "https://www.sharefable.com/testimonials",
               },
             ],
             banner: {
@@ -170,7 +170,7 @@ module.exports = {
                 url: "https://www.g2.com/products/pyxis-voyager-inc-fable/reviews",
               },
               image: {
-                url: "https://sharefable.com/g2-badges/usersLoveUs.svg",
+                url: "https://www.sharefable.com/g2-badges/usersLoveUs.svg",
               }
             },
           },
@@ -200,7 +200,7 @@ module.exports = {
     content: {},
     footer: {
       customComponent: Footer,
-      logo: "https://sharefable.com/fable_footer-logo.svg",
+      logo: "https://www.sharefable.com/fable_footer-logo.svg",
       copyright: "Fable © 2024",
       links: [
         {
@@ -237,8 +237,8 @@ module.exports = {
               url: "https://www.sharefable.com/podcast/mastering-b2b-demand-generation",
             },
             { title: "Help Center", url: "https://docs.sharefable.com" },
-            { title: "E-Books", url: "https://sharefable.com/ebooks" },
-            { title: "Fable Blog", url: "https://sharefable.com/blog" },
+            { title: "E-Books", url: "https://www.sharefable.com/ebooks" },
+            { title: "Fable Blog", url: "https://www.sharefable.com/blog" },
           ],
         },
         {
@@ -295,23 +295,23 @@ module.exports = {
       ],
       g2Badges: [
         {
-         source: 'https://sharefable.com/g2-badges/HighPerformer.svg',
+         source: 'https://www.sharefable.com/g2-badges/HighPerformer.svg',
          name: 'High Performer',
         },
         {
-         source: 'https://sharefable.com/g2-badges/EasiestToUse.svg',
+         source: 'https://www.sharefable.com/g2-badges/EasiestToUse.svg',
          name: 'Easiest To Use',
         },
         {
-         source: 'https://sharefable.com/g2-badges/FastestImplementation.svg',
+         source: 'https://www.sharefable.com/g2-badges/FastestImplementation.svg',
          name: 'Fastest Implementation',
         },
         {
-         source: 'https://sharefable.com/g2-badges/BestEstimatedROI.svg',
+         source: 'https://www.sharefable.com/g2-badges/BestEstimatedROI.svg',
          name: 'Best Estimated ROI',
         },
         {
-         source: 'https://sharefable.com/g2-badges/EasiestToDoBusinessWith.svg',
+         source: 'https://www.sharefable.com/g2-badges/EasiestToDoBusinessWith.svg',
          name: 'Easiest To Do Business With',
         },
       ],
