@@ -26,7 +26,7 @@ const CustomLayout = (props) => {
             <img
               style={{ cursor: "pointer"}}
               src={menuIconUrl}
-              alt=""
+              alt="menu icon"
               width={28}
               height={28}
               onClick={() =>
