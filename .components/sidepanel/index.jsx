@@ -60,7 +60,7 @@ const Sidepanel = (props) => {
       <button type="button" onClick={props.closeSidepanel} className='close-icon'> 
         <img
           src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/2058d1f5-f692-4341-b4dc-2014ccad5ecc"
-          alt=""
+          alt="close icon"
           width={26}
           height={26}
           style={{transform: "rotate(180deg)"}}

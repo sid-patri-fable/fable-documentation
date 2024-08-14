@@ -8,7 +8,7 @@ const SupportBanner = () => {
         <img
           width={20}
           className="support-banner-icon"
-          alt=""
+          alt="support banner icon"
           src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/6b28dcd5-0845-4aa1-b12a-dab4f87ca6bb"
         ></img>
       </div>
