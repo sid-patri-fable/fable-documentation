@@ -2,7 +2,7 @@ import Header from "./.components/header/Header.jsx";
 import CustomLayout from "./.components/custom-layout/CustomLayout.jsx";
 import CustomSidepanel from "./.components/sidepanel/index.jsx";
 import Footer from "./.components/footer/Footer.jsx";
-
+ 
 module.exports = {
   version: "1.0.0",
   urlMapping: {
