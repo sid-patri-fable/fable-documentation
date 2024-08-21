@@ -64,6 +64,7 @@ module.exports = {
     "Settings-and-Preferences/Add-global-styling-to-all-your-demos.mdx",
     "Settings-and-Preferences/How-to-host-the-demos-on-my-domain.mdx",
     "Manage-billing/Manage-subscriptions.mdx",
+    "Integrate-Demos-with-your-stack/Overview.mdx",
   ],
   layout: CustomLayout,
   props: {
