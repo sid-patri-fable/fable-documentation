@@ -62,6 +62,7 @@ module.exports = {
     "Miscellaneous/Glossary.mdx",
     "Settings-and-Preferences/Overview.mdx",
     "Settings-and-Preferences/Add-global-styling-to-all-your-demos.mdx",
+    "Settings-and-Preferences/How-to-host-the-demos-on-my-domain.mdx",
   ],
   layout: CustomLayout,
   props: {

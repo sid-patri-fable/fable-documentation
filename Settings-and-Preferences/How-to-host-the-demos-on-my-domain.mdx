@@ -1,0 +1,47 @@
+---
+title: How to host the demos on my domain?
+subtitle: Complete guide to hosting demos in your domain in Fable.
+date: August 21, 2024
+bannerImg: https://github.com/sid-patri-fable/fable-blog/assets/155963795/fe84d566-41fe-4571-96e0-dcd47a4af035
+ogTitle: How to host the demos on my domain?
+ogDescription: Complete guide to hosting demos in your domain in Fable.
+ogImage: https://github.com/sid-patri-fable/fable-documentation/assets/155963795/b4e5b310-ef91-4b56-b2f6-6420de9d7fe1
+canonicalUrl: https://help.sharefable.com/Settings-and-Preferences/How-to-host-the-demos-on-my-domain
+ogType: article
+ogUrl: https://help.sharefable.com/Settings-and-Preferences/How-to-host-the-demos-on-my-domain
+---
+import FableEmbed from "../.components/fable-embed";
+
+# How to host demos on your domain?
+
+Fable by default hosts all your demos on app.sharefable.com domain. However, if your want to integrate Fable deeper into your stack, you can very easily host your demos your domain like demo.yourdomain.com. Let us see how we can do it!
+
+This Fable demo below will give you a step-by-step guide about adding your own domain.
+<FableEmbed src="https://app.sharefable.com/embed/demo/adding-custom-domain-x8ce0zu1851t0x44" />
+
+## A step-by-step guide on adding a custom domain
+
+### Step 1 
+Click on Add a new domain button.
+
+<img alt="Add a new domain button" src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/707ac6ea-addc-44f6-8829-e79cc7be0e43"></img>
+
+### Step 2
+The following modal will open up. Enter the subdomain and the apex domain on which you would like to host your demos.
+
+<img alt="form" src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/65ea88a0-71e1-463d-9f5f-d1812214c4fc"></img>
+
+Once you have filled the formed, Fable will generate CNAME records for you to update on your domain registry. It may take some time for Fable to generate these record. While you wait, Fable will show the follow screen.
+<img alt="waiting screen" src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/051b9e11-fd60-4d29-aa48-8cd64da8f4dc"></img>
+
+### Step 3
+Once Fable has generated CNAME records for you, it will show this screen to you.
+<img alt="cname records" src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/6e6fcc54-a716-4352-bf28-9f67e8c1bb73"></img>
+
+Simple go and update these with your DNS service provider such as AWS Route 53, Namecheap or Cloudflare.
+
+Once you have updated the DNS configuration, you will be able to access all your demos on your domain, for e.g.,
+From -> https://app.sharefable.com/live/demo/slkdjf232
+to -> https://demo.yourdomain.com/live/demo/slkdjf232
+
+And just like that in 3 simple steps, you can host your demos on your own domain!
