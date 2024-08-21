@@ -66,6 +66,7 @@ module.exports = {
     "Manage-billing/Manage-subscriptions.mdx",
     "Integrate-Demos-with-your-stack/Overview.mdx",
     "Integrate-Demos-with-your-stack/How-to-integrate-with-hubspot.mdx",
+    "Integrate-Demos-with-your-stack/How-to-integrate-webhooks.mdx",
   ],
   layout: CustomLayout,
   props: {
