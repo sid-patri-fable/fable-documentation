@@ -65,6 +65,7 @@ module.exports = {
     "Settings-and-Preferences/How-to-host-the-demos-on-my-domain.mdx",
     "Manage-billing/Manage-subscriptions.mdx",
     "Integrate-Demos-with-your-stack/Overview.mdx",
+    "Integrate-Demos-with-your-stack/How-to-integrate-with-hubspot.mdx",
   ],
   layout: CustomLayout,
   props: {
