@@ -60,6 +60,7 @@ module.exports = {
     "Integrations/Slack.mdx",
     "Miscellaneous/FAQs.mdx",
     "Miscellaneous/Glossary.mdx",
+    "Settings-and-Preferences/Overview.mdx",
   ],
   layout: CustomLayout,
   props: {
