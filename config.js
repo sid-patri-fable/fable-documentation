@@ -65,6 +65,7 @@ module.exports = {
     "Settings-and-Preferences/How-to-host-the-demos-on-my-domain.mdx",
     "Settings-and-Preferences/Troubleshoot-domain-mapping-issues.mdx",
     "Manage-billing/Manage-subscriptions.mdx",
+    "Manage-billing/Adding-payment-details.mdx",
     "Manage-billing/Cancel-subscription.mdx",
     "Integrate-Demos-with-your-stack/Overview.mdx",
     "Integrate-Demos-with-your-stack/How-to-integrate-with-hubspot.mdx",
