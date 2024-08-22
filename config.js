@@ -67,6 +67,10 @@ module.exports = {
     "Integrate-Demos-with-your-stack/Overview.mdx",
     "Integrate-Demos-with-your-stack/How-to-integrate-with-hubspot.mdx",
     "Integrate-Demos-with-your-stack/How-to-integrate-webhooks.mdx",
+    "Manage-your-workspace/Overview.mdx",
+    "Manage-your-workspace/Invite-new-user-to-organization.mdx",
+    "Manage-your-workspace/Remove-user-from-organization.mdx",
+    "Manage-your-workspace/Switch-organization.mdx",
   ],
   layout: CustomLayout,
   props: {
