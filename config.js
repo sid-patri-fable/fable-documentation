@@ -80,6 +80,7 @@ module.exports = {
     "Explore-demo-analytics/Leads-captured-in-demo.mdx",
     "Explore-demo-analytics/Check-lead-journey.mdx",
     "Explore-demo-analytics/Make-sense-of-analytics-data.mdx",
+    "Guided-app-tour/Overview.mdx",
   ],
   layout: CustomLayout,
   props: {
