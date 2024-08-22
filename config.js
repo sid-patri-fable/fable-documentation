@@ -81,6 +81,7 @@ module.exports = {
     "Explore-demo-analytics/Check-lead-journey.mdx",
     "Explore-demo-analytics/Make-sense-of-analytics-data.mdx",
     "Guided-app-tour/Overview.mdx",
+    "Guided-app-tour/Accessing-user-guides.mdx",
   ],
   layout: CustomLayout,
   props: {
