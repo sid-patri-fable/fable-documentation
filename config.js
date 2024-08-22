@@ -69,8 +69,12 @@ module.exports = {
     "Integrate-Demos-with-your-stack/How-to-integrate-webhooks.mdx",
     "Manage-your-workspace/Overview.mdx",
     "Manage-your-workspace/Invite-new-user-to-organization.mdx",
-    "Manage-your-workspace/Remove-user-from-organization.mdx",
+    "Manage-your-workspace/Deactivate-user-from-organization.mdx",
     "Manage-your-workspace/Switch-organization.mdx",
+    "Explore-demo-analytics/Overview.mdx",
+    "Explore-demo-analytics/Check-demo-session-information.mdx",
+    "Explore-demo-analytics/Conversion-and-completion-rate.mdx",
+    "Explore-demo-analytics/Leads-captured-in-demo.mdx",
   ],
   layout: CustomLayout,
   props: {
