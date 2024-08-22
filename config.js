@@ -75,6 +75,7 @@ module.exports = {
     "Explore-demo-analytics/Check-demo-session-information.mdx",
     "Explore-demo-analytics/Conversion-and-completion-rate.mdx",
     "Explore-demo-analytics/Leads-captured-in-demo.mdx",
+    "Explore-demo-analytics/Check-lead-journey.mdx",
   ],
   layout: CustomLayout,
   props: {
