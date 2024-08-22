@@ -63,6 +63,7 @@ module.exports = {
     "Settings-and-Preferences/Overview.mdx",
     "Settings-and-Preferences/Add-global-styling-to-all-your-demos.mdx",
     "Settings-and-Preferences/How-to-host-the-demos-on-my-domain.mdx",
+    "Settings-and-Preferences/Troubleshoot-domain-mapping-issues.mdx",
     "Manage-billing/Manage-subscriptions.mdx",
     "Integrate-Demos-with-your-stack/Overview.mdx",
     "Integrate-Demos-with-your-stack/How-to-integrate-with-hubspot.mdx",

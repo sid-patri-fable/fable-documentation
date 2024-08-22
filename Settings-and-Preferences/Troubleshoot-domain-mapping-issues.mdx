@@ -1,0 +1,70 @@
+---
+title: Troubleshoot domain mapping issues
+subtitle: Complete guide to troubleshooting domain mapping issues in Fable.
+date: August 21, 2024
+bannerImg: https://github.com/sid-patri-fable/fable-blog/assets/155963795/fe84d566-41fe-4571-96e0-dcd47a4af035
+ogTitle: Troubleshoot domain mapping issues
+ogDescription: Complete guide to troubleshooting domain mapping issues in Fable.
+ogImage: https://github.com/sid-patri-fable/fable-documentation/assets/155963795/b4e5b310-ef91-4b56-b2f6-6420de9d7fe1
+canonicalUrl: https://help.sharefable.com/Settings-and-Preferences/Troubleshoot-domain-mapping-issues
+ogType: article
+ogUrl: https://help.sharefable.com/Settings-and-Preferences/Troubleshoot-domain-mapping-issues
+---
+import FableEmbed from "../.components/fable-embed";
+
+## Troubleshooting Domain Mapping Issues for Your Demos
+
+Integrating your demos with a custom domain can enhance your brand's professionalism and user experience. However, you might encounter issues while mapping your domain. This guide will help you troubleshoot common domain mapping problems when hosting demos on your custom domain using Fable.
+
+### Common Domain Mapping Issues and Solutions
+
+#### 1. **CNAME Records Not Propagating**
+
+**Issue:** Sometimes, CNAME records do not propagate immediately across the internet, causing your domain to fail to resolve to the Fable-hosted content.
+
+**Solution:**
+- **Check DNS Configuration:** Verify that the CNAME records provided by Fable are correctly entered into your DNS settings. Ensure there are no typos or missing values.
+- **DNS Propagation Time:** DNS changes can take up to 48 hours to propagate fully. Use online tools like [Whatsmydns.net](https://www.whatsmydns.net) to check the propagation status.
+- **Clear Cache:** Clear your browser's cache or try accessing your domain from a different network to ensure you're not viewing a cached version of your site.
+
+#### 2. **Domain Not Resolving**
+
+**Issue:** Your custom domain is not resolving to the Fable-hosted demos, leading to errors or a "Page Not Found" message.
+
+**Solution:**
+- **Verify Domain Registration:** Ensure that your domain is correctly registered and not expired. Check with your domain registrar for the status of your domain.
+- **Update DNS Records:** Double-check that you have updated the correct CNAME records in your DNS provider’s settings. Ensure the records match those provided by Fable.
+- **DNS Configuration:** Confirm that your DNS settings are not conflicting with any existing records or configurations.
+
+#### 3. **SSL/TLS Certificate Issues**
+
+**Issue:** Your custom domain may not be served over HTTPS, or you may encounter SSL/TLS certificate errors.
+
+**Solution:**
+- **Automatic SSL:** Fable typically handles SSL certificates for custom domains. Ensure that your domain's SSL/TLS settings are configured correctly in your DNS provider.
+- **Check SSL Status:** Use tools like [SSL Labs' SSL Test](https://www.ssllabs.com/ssltest/) to check the status of your SSL certificate and ensure it's correctly installed.
+- **Contact Support:** If SSL issues persist, contact Fable's support team for assistance with SSL certificate provisioning and configuration.
+
+#### 4. **Incorrect Domain Configuration**
+
+**Issue:** The domain configuration might be incorrect, causing your demo to display a generic or incorrect page.
+
+**Solution:**
+- **Verify Domain Settings:** Ensure that you have correctly followed Fable’s instructions for domain setup. Verify that the subdomain and apex domain details are correctly entered.
+- **Review DNS Records:** Confirm that all required DNS records (CNAME) have been properly added to your domain's DNS settings.
+
+#### 5. **Access Denied or Permissions Issues**
+
+**Issue:** Users are unable to access your demos due to permission or access errors.
+
+**Solution:**
+- **Check Permissions:** Ensure that the permissions for your demos are set correctly in Fable. Verify that the demos are published.
+- **Review Access Settings:** Make sure that the domain and demo URLs are correctly configured to allow public access or intended user access.
+
+### Additional Tips
+
+- **Regularly Review Domain Settings:** Regularly check your domain and DNS settings to ensure they remain accurate and updated.
+- **Monitor Domain Performance:** Use performance monitoring tools to track the health and responsiveness of your custom domain.
+- **Seek Support:** If issues persist despite troubleshooting, contact Fable’s support team for specialized assistance.
+
+By addressing these common issues and following these troubleshooting steps, you can ensure that your custom domain integrates seamlessly with Fable, providing a professional and reliable experience for your demo viewers.
