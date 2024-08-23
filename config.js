@@ -88,6 +88,7 @@ module.exports = {
     "Modify-demo-level-options/Delete-a-demo.mdx",
     "Custom-loading-screen/Overview.mdx",
     "Custom-loading-screen/Change-custom-loader-logo.mdx",
+    "Custom-loading-screen/Add-custom-animation.mdx",
   ],
   layout: CustomLayout,
   props: {
