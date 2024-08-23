@@ -89,6 +89,7 @@ module.exports = {
     "Custom-loading-screen/Overview.mdx",
     "Custom-loading-screen/Change-custom-loader-logo.mdx",
     "Custom-loading-screen/Add-custom-animation.mdx",
+    "Custom-loading-screen/Change-loader-text.mdx",
   ],
   layout: CustomLayout,
   props: {
