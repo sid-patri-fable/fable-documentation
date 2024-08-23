@@ -85,6 +85,7 @@ module.exports = {
     "Modify-demo-level-options/Overview.mdx",
     "Modify-demo-level-options/Rename-a-demo.mdx",
     "Modify-demo-level-options/Duplicate-a-demo.mdx",
+    "Modify-demo-level-options/Delete-a-demo.mdx",
   ],
   layout: CustomLayout,
   props: {
