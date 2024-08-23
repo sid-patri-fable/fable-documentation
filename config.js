@@ -83,6 +83,7 @@ module.exports = {
     "Guided-app-tour/Overview.mdx",
     "Guided-app-tour/Accessing-user-guides.mdx",
     "Modify-demo-level-options/Overview.mdx",
+    "Modify-demo-level-options/Rename-a-demo.mdx",
   ],
   layout: CustomLayout,
   props: {
