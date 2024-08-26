@@ -92,6 +92,7 @@ module.exports = {
     "Custom-loading-screen/Change-loader-text.mdx",
     "Demo-sharing-features/Overview.mdx",
     "Demo-sharing-features/Preview-demo-changes.mdx",
+    "Demo-sharing-features/Embed-a-demo.mdx",
   ],
   layout: CustomLayout,
   props: {
