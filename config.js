@@ -93,6 +93,7 @@ module.exports = {
     "Demo-sharing-features/Overview.mdx",
     "Demo-sharing-features/Preview-demo-changes.mdx",
     "Demo-sharing-features/Embed-a-demo.mdx",
+    "Demo-sharing-features/Share-as-link.mdx",
   ],
   layout: CustomLayout,
   props: {
