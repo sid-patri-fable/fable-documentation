@@ -97,6 +97,7 @@ module.exports = {
     "Demo-Hub/Overview.mdx",
     "Demo-Hub/Create-new-demohub.mdx",
     "Demo-Hub/General-and-CTA-settings.mdx",
+    "Demo-Hub/Edit-header.mdx",
   ],
   layout: CustomLayout,
   props: {
