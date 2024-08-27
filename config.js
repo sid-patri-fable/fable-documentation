@@ -104,6 +104,7 @@ module.exports = {
     "Demo-Hub/Single-select.mdx",
     "Demo-Hub/Multi-select.mdx",
     "Demo-Hub/Text-step.mdx",
+    "Demo-Hub/Lead-for-step.mdx",
     "Demo-Hub/Publish-demo-hub.mdx",
   ],
   layout: CustomLayout,
