@@ -100,6 +100,7 @@ module.exports = {
     "Demo-Hub/Edit-header.mdx",
     "Demo-Hub/Body-configurations.mdx",
     "Demo-Hub/Manage-sections.mdx",
+    "Demo-Hub/Qualifications.mdx",
   ],
   layout: CustomLayout,
   props: {
