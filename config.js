@@ -101,6 +101,7 @@ module.exports = {
     "Demo-Hub/Body-configurations.mdx",
     "Demo-Hub/Manage-sections.mdx",
     "Demo-Hub/Qualifications.mdx",
+    "Demo-Hub/Single-select.mdx",
     "Demo-Hub/Publish-demo-hub.mdx",
   ],
   layout: CustomLayout,
