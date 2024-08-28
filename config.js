@@ -107,6 +107,7 @@ module.exports = {
     "Demo-Hub/Lead-for-step.mdx",
     "Demo-Hub/Publish-demo-hub.mdx",
     "Lead-form/Overview.mdx",
+    "Lead-form/Add-lead-form.mdx",
   ],
   layout: CustomLayout,
   props: {
