@@ -113,6 +113,7 @@ module.exports = {
     "Lead-form/Add-custom-field.mdx",
     "Lead-form/Primary-key.mdx",
     "Lead-form/Optional-field.mdx",
+    "Lead-form/Calculated-field.mdx",
   ],
   layout: CustomLayout,
   props: {
