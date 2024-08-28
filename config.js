@@ -110,6 +110,7 @@ module.exports = {
     "Lead-form/Add-lead-form.mdx",
     "Lead-form/Add-new-fields.mdx",
     "Lead-form/Change-field-order.mdx",
+    "Lead-form/Add-custom-field.mdx",
   ],
   layout: CustomLayout,
   props: {
