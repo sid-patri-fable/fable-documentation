@@ -114,6 +114,7 @@ module.exports = {
     "Lead-form/Primary-key.mdx",
     "Lead-form/Optional-field.mdx",
     "Lead-form/Calculated-field.mdx",
+    "Demo-effects/Overview.mdx",
   ],
   layout: CustomLayout,
   props: {
