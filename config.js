@@ -119,6 +119,7 @@ module.exports = {
     "Demo-effects/Annotation-effects.mdx",
     "Create-demo-without-recording/Overview.mdx",
     "Create-demo-without-recording/Create-new-demo.mdx",
+    "Using-modules/Overview.mdx",
   ],
   layout: CustomLayout,
   props: {
