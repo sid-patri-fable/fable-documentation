@@ -120,6 +120,7 @@ module.exports = {
     "Create-demo-without-recording/Overview.mdx",
     "Create-demo-without-recording/Create-new-demo.mdx",
     "Using-modules/Overview.mdx",
+    "Using-modules/Creating-module.mdx",
   ],
   layout: CustomLayout,
   props: {
