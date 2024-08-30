@@ -123,6 +123,7 @@ module.exports = {
     "Using-modules/Creating-module.mdx",
     "Using-modules/Change-title.mdx",
     "Using-modules/Add-module-segment.mdx",
+    "Using-modules/Add-CTA.mdx",
   ],
   layout: CustomLayout,
   props: {
