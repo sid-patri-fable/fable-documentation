@@ -122,6 +122,7 @@ module.exports = {
     "Using-modules/Overview.mdx",
     "Using-modules/Creating-module.mdx",
     "Using-modules/Change-title.mdx",
+    "Using-modules/Add-module-segment.mdx",
   ],
   layout: CustomLayout,
   props: {
