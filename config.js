@@ -124,6 +124,7 @@ module.exports = {
     "Using-modules/Change-title.mdx",
     "Using-modules/Add-module-segment.mdx",
     "Using-modules/Add-CTA.mdx",
+    "Using-modules/Delete-module.mdx",
   ],
   layout: CustomLayout,
   props: {
