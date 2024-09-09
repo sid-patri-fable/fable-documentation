@@ -130,6 +130,7 @@ module.exports = {
     "Mobile-responsive-demos/Reselect-element-for-mobile.mdx",
     "Make-screen-edits/Overview.mdx",
     "Make-screen-edits/Change-text-content.mdx",
+    "Make-screen-edits/Hide-elements.mdx",
   ],
   layout: CustomLayout,
   props: {
