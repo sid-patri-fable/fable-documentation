@@ -129,6 +129,7 @@ module.exports = {
     "Mobile-responsive-demos/Toggle-mobile-responsiveness.mdx",
     "Mobile-responsive-demos/Reselect-element-for-mobile.mdx",
     "Make-screen-edits/Overview.mdx",
+    "Make-screen-edits/Change-text-content.mdx",
   ],
   layout: CustomLayout,
   props: {
