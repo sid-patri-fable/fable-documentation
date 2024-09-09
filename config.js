@@ -127,6 +127,7 @@ module.exports = {
     "Using-modules/Delete-module.mdx",
     "Mobile-responsive-demos/Overview.mdx",
     "Mobile-responsive-demos/Toggle-mobile-responsiveness.mdx",
+    "Mobile-responsive-demos/Reselect-element-for-mobile.mdx",
   ],
   layout: CustomLayout,
   props: {
