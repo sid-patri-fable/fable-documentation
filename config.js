@@ -126,6 +126,7 @@ module.exports = {
     "Using-modules/Add-CTA.mdx",
     "Using-modules/Delete-module.mdx",
     "Mobile-responsive-demos/Overview.mdx",
+    "Mobile-responsive-demos/Toggle-mobile-responsiveness.mdx",
   ],
   layout: CustomLayout,
   props: {
