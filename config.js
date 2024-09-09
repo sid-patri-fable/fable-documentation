@@ -131,6 +131,7 @@ module.exports = {
     "Make-screen-edits/Overview.mdx",
     "Make-screen-edits/Change-text-content.mdx",
     "Make-screen-edits/Hide-elements.mdx",
+    "Make-screen-edits/Blur-elements.mdx",
   ],
   layout: CustomLayout,
   props: {
