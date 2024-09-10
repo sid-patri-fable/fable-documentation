@@ -141,6 +141,7 @@ module.exports = {
     "Stylize-your-demo/Overview.mdx",
     "Stylize-your-demo/Change-colors-and-font.mdx",
     "Stylize-your-demo/Change-border-radius-and-padding.mdx",
+    "Stylize-your-demo/Change-selection-shape-and-effect.mdx",
   ],
   layout: CustomLayout,
   props: {
