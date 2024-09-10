@@ -138,6 +138,7 @@ module.exports = {
     "Getting-started-for-new-users/Installing-extension.mdx",
     "Getting-started-for-new-users/Workspace-review.mdx",
     "Recording-your-first-demo/Using-the-extension.mdx",
+    "Stylize-your-demo/Overview.mdx",
   ],
   layout: CustomLayout,
   props: {
