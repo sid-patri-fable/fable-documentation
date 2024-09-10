@@ -142,6 +142,7 @@ module.exports = {
     "Stylize-your-demo/Change-colors-and-font.mdx",
     "Stylize-your-demo/Change-border-radius-and-padding.mdx",
     "Stylize-your-demo/Change-selection-shape-and-effect.mdx",
+    "Stylize-your-demo/Toggle-watermark.mdx",
   ],
   layout: CustomLayout,
   props: {
