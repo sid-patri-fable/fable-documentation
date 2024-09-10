@@ -145,6 +145,7 @@ module.exports = {
     "Stylize-your-demo/Toggle-watermark.mdx",
     "Using-media-annotations/Overview.mdx",
     "Using-media-annotations/Video-guide.mdx",
+    "Using-media-annotations/Audio-guide.mdx",
   ],
   layout: CustomLayout,
   props: {
