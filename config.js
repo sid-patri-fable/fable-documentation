@@ -135,6 +135,7 @@ module.exports = {
     "Make-screen-edits/Mask-elements.mdx",
     "Make-screen-edits/Replace-image.mdx",
     "Getting-started-for-new-users/Creating-an-account.mdx",
+    "Getting-started-for-new-users/Installing-extension.mdx",
   ],
   layout: CustomLayout,
   props: {
