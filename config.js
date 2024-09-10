@@ -136,6 +136,7 @@ module.exports = {
     "Make-screen-edits/Replace-image.mdx",
     "Getting-started-for-new-users/Creating-an-account.mdx",
     "Getting-started-for-new-users/Installing-extension.mdx",
+    "Getting-started-for-new-users/Workspace-review.mdx",
   ],
   layout: CustomLayout,
   props: {
