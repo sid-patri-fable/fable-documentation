@@ -144,6 +144,7 @@ module.exports = {
     "Stylize-your-demo/Change-selection-shape-and-effect.mdx",
     "Stylize-your-demo/Toggle-watermark.mdx",
     "Using-media-annotations/Overview.mdx",
+    "Using-media-annotations/Video-guide.mdx",
   ],
   layout: CustomLayout,
   props: {
