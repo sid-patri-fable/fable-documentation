@@ -138,6 +138,7 @@ module.exports = {
     "Getting-started-for-new-users/Installing-extension.mdx",
     "Getting-started-for-new-users/Workspace-review.mdx",
     "Recording-your-first-demo/Using-the-extension.mdx",
+    "Recording-your-first-demo/Resetting-extension.mdx",
     "Stylize-your-demo/Overview.mdx",
     "Stylize-your-demo/Change-colors-and-font.mdx",
     "Stylize-your-demo/Change-border-radius-and-padding.mdx",
