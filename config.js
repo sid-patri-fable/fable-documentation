@@ -140,6 +140,7 @@ module.exports = {
     "Recording-your-first-demo/Using-the-extension.mdx",
     "Stylize-your-demo/Overview.mdx",
     "Stylize-your-demo/Change-colors-and-font.mdx",
+    "Stylize-your-demo/Change-border-radius-and-padding.mdx",
   ],
   layout: CustomLayout,
   props: {
