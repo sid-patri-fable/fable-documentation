@@ -150,6 +150,7 @@ module.exports = {
     "Using-media-annotations/Audio-guide.mdx",
     "Save-recording/Save-recording.mdx",
     "Save-recording/Delete-recording.mdx",
+    "Save-recording/Saving-in-existing-demo.mdx",
   ],
   layout: CustomLayout,
   props: {
