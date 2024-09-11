@@ -153,6 +153,7 @@ module.exports = {
     "Save-recording/Saving-in-existing-demo.mdx",
     "Save-recording/Preview-page.mdx",
     "Manage-CTAs/CTA-actions.mdx",
+    "Manage-CTAs/Add-replay-button.mdx",
   ],
   layout: CustomLayout,
   props: {
