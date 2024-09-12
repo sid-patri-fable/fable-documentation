@@ -154,6 +154,7 @@ module.exports = {
     "Save-recording/Preview-page.mdx",
     "Manage-CTAs/CTA-actions.mdx",
     "Manage-CTAs/Add-replay-button.mdx",
+    "Size-and-Position-of-Annotation-Cards/Overview",
   ],
   layout: CustomLayout,
   props: {
