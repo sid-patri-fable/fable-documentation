@@ -163,6 +163,7 @@ module.exports = {
     "Advanced-Annotation-Creator-Panel-Options/Toggle-overlay",
     "Advanced-Annotation-Creator-Panel-Options/Scroll-adjustment",
     "Advanced-Annotation-Creator-Panel-Options/Toggle-progress-bar",
+    "Advanced-Annotation-Creator-Panel-Options/Reduce-motion-in-mobile",
   ],
   layout: CustomLayout,
   props: {
