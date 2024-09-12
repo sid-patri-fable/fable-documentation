@@ -159,6 +159,7 @@ module.exports = {
     "Size-and-Position-of-Annotation-Cards/Annotation-position",
     "Size-and-Position-of-Annotation-Cards/Overflowing-annotation",
     "Advanced-Annotation-Creator-Panel-Options/Overview",
+    "Advanced-Annotation-Creator-Panel-Options/Entry-point",
   ],
   layout: CustomLayout,
   props: {
