@@ -167,6 +167,7 @@ module.exports = {
     "Editing-Demos-using-Canvas-Editor/Overview",
     "Editing-Demos-using-Canvas-Editor/Editing-annotation-text",
     "Editing-Demos-using-Canvas-Editor/Embed-videos",
+    "Hotspot-features/Hide-annotation-card",
   ],
   layout: CustomLayout,
   props: {
