@@ -171,6 +171,7 @@ module.exports = {
     "Hotspot-features/Add-nested-element",
     "Add-new-annotations/Types-of-annotations",
     "Add-new-annotations/Reselect-element",
+    "Add-new-annotations/Advanced-element-picker",
   ],
   layout: CustomLayout,
   props: {
