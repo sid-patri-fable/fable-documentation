@@ -172,6 +172,7 @@ module.exports = {
     "Add-new-annotations/Types-of-annotations",
     "Add-new-annotations/Reselect-element",
     "Add-new-annotations/Advanced-element-picker",
+    "Manage-screens-and-annotations/Delete-annotation",
   ],
   layout: CustomLayout,
   props: {
