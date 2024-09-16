@@ -165,6 +165,7 @@ module.exports = {
     "Advanced-Annotation-Creator-Panel-Options/Toggle-progress-bar",
     "Advanced-Annotation-Creator-Panel-Options/Reduce-motion-in-mobile",
     "Editing-Demos-using-Canvas-Editor/Overview",
+    "Editing-Demos-using-Canvas-Editor/Editing-annotation-text",
   ],
   layout: CustomLayout,
   props: {
