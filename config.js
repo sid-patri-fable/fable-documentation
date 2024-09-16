@@ -166,6 +166,7 @@ module.exports = {
     "Advanced-Annotation-Creator-Panel-Options/Reduce-motion-in-mobile",
     "Editing-Demos-using-Canvas-Editor/Overview",
     "Editing-Demos-using-Canvas-Editor/Editing-annotation-text",
+    "Editing-Demos-using-Canvas-Editor/Embed-videos",
   ],
   layout: CustomLayout,
   props: {
