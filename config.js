@@ -169,6 +169,7 @@ module.exports = {
     "Editing-Demos-using-Canvas-Editor/Embed-videos",
     "Hotspot-features/Hide-annotation-card",
     "Hotspot-features/Add-nested-element",
+    "Add-new-annotations/Types-of-annotations",
   ],
   layout: CustomLayout,
   props: {
