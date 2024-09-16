@@ -2,7 +2,7 @@ import Header from "./.components/header/Header.jsx";
 import CustomLayout from "./.components/custom-layout/CustomLayout.jsx";
 import CustomSidepanel from "./.components/sidepanel/index.jsx";
 import Footer from "./.components/footer/Footer.jsx";
- 
+
 module.exports = {
   version: "1.0.0",
   urlMapping: {
@@ -164,6 +164,7 @@ module.exports = {
     "Advanced-Annotation-Creator-Panel-Options/Scroll-adjustment",
     "Advanced-Annotation-Creator-Panel-Options/Toggle-progress-bar",
     "Advanced-Annotation-Creator-Panel-Options/Reduce-motion-in-mobile",
+    "Editing-Demos-using-Canvas-Editor/Overview",
   ],
   layout: CustomLayout,
   props: {
@@ -403,24 +404,24 @@ module.exports = {
       ],
       g2Badges: [
         {
-         source: 'https://www.sharefable.com/g2-badges/HighPerformer.svg',
-         name: 'High Performer',
+          source: 'https://www.sharefable.com/g2-badges/HighPerformer.svg',
+          name: 'High Performer',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/EasiestToUse.svg',
-         name: 'Easiest To Use',
+          source: 'https://www.sharefable.com/g2-badges/EasiestToUse.svg',
+          name: 'Easiest To Use',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/FastestImplementation.svg',
-         name: 'Fastest Implementation',
+          source: 'https://www.sharefable.com/g2-badges/FastestImplementation.svg',
+          name: 'Fastest Implementation',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/BestEstimatedROI.svg',
-         name: 'Best Estimated ROI',
+          source: 'https://www.sharefable.com/g2-badges/BestEstimatedROI.svg',
+          name: 'Best Estimated ROI',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/EasiestToDoBusinessWith.svg',
-         name: 'Easiest To Do Business With',
+          source: 'https://www.sharefable.com/g2-badges/EasiestToDoBusinessWith.svg',
+          name: 'Easiest To Do Business With',
         },
       ],
     },
