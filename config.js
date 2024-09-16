@@ -170,6 +170,7 @@ module.exports = {
     "Hotspot-features/Hide-annotation-card",
     "Hotspot-features/Add-nested-element",
     "Add-new-annotations/Types-of-annotations",
+    "Add-new-annotations/Reselect-element",
   ],
   layout: CustomLayout,
   props: {
