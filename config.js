@@ -2,7 +2,7 @@ import Header from "./.components/header/Header.jsx";
 import CustomLayout from "./.components/custom-layout/CustomLayout.jsx";
 import CustomSidepanel from "./.components/sidepanel/index.jsx";
 import Footer from "./.components/footer/Footer.jsx";
- 
+
 module.exports = {
   version: "1.0.0",
   urlMapping: {
@@ -72,8 +72,38 @@ module.exports = {
       navLinks: {
         alignment: "right",
         links: [
-          { title: "Product", url: "https://www.sharefable.com/products" },
-          { title: "Demo Hub", url: "https://app.sharefable.com/hub/seeall/fable-ihxi2rpy9h0u4ivh" },
+          {
+            title: "Product",
+            subtitle: "The ultimate demo platform for all your GTM needs",
+            sublinks: [
+              {
+                title: "Interactive Demo",
+                subtitle: "Engage prospects, close more deals & simplify onboarding with AI-powered demos.",
+                logo: "https://www.sharefable.com/logo/marketing-logo.svg",
+                url: "https://www.sharefable.com/products/interactive-demo",
+              },
+              {
+                title: "Demo Hub",
+                subtitle: "Organize, personalize, and share your interactive demos effortlessly.",
+                logo: "https://www.sharefable.com/logo/sales-logo.svg",
+                url: "https://www.sharefable.com/products/demo-hub",
+              },
+            ],
+            banner: {
+              title: "Customers are raving about us on G2!",
+              heading: "Rated 4.9 on G2 & trusted by GTM teams across the world",
+              description:
+                "",
+              cta: {
+                title: "Check it out",
+                url: "https://www.g2.com/products/pyxis-voyager-inc-fable/reviews",
+              },
+              image: {
+                url: "https://www.sharefable.com/g2-badges/usersLoveUs.svg",
+              }
+            },
+          },
+          { title: "Quilly", url: "https://www.sharefable.com/products/quilly" },
           {
             title: "Solutions",
             subtitle: "The ultimate demo platform for all your GTM needs",
@@ -204,6 +234,23 @@ module.exports = {
       copyright: "Fable © 2024",
       links: [
         {
+          heading: "Product",
+          links: [
+            {
+              title: "Interactive Demo",
+              url: "https://www.sharefable.com/products/interactive-demo",
+            },
+            {
+              title: "Demo Hub",
+              url: "https://www.sharefable.com/products/demo-hub",
+            },
+            {
+              title: "Quilly",
+              url: "https://www.sharefable.com/products/quilly",
+            },
+          ],
+        },
+        {
           heading: "Solutions",
           links: [
             {
@@ -299,24 +346,24 @@ module.exports = {
       ],
       g2Badges: [
         {
-         source: 'https://www.sharefable.com/g2-badges/HighPerformer.svg',
-         name: 'High Performer',
+          source: 'https://www.sharefable.com/g2-badges/HighPerformer.svg',
+          name: 'High Performer',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/EasiestToUse.svg',
-         name: 'Easiest To Use',
+          source: 'https://www.sharefable.com/g2-badges/EasiestToUse.svg',
+          name: 'Easiest To Use',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/FastestImplementation.svg',
-         name: 'Fastest Implementation',
+          source: 'https://www.sharefable.com/g2-badges/FastestImplementation.svg',
+          name: 'Fastest Implementation',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/BestEstimatedROI.svg',
-         name: 'Best Estimated ROI',
+          source: 'https://www.sharefable.com/g2-badges/BestEstimatedROI.svg',
+          name: 'Best Estimated ROI',
         },
         {
-         source: 'https://www.sharefable.com/g2-badges/EasiestToDoBusinessWith.svg',
-         name: 'Easiest To Do Business With',
+          source: 'https://www.sharefable.com/g2-badges/EasiestToDoBusinessWith.svg',
+          name: 'Easiest To Do Business With',
         },
       ],
     },
