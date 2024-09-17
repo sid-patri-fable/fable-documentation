@@ -1,0 +1,43 @@
+---
+title: How to integrate webhooks
+subtitle: Complete guide to integrating webhooks in Fable.
+date: August 21, 2024
+bannerImg: https://github.com/sid-patri-fable/fable-blog/assets/155963795/fe84d566-41fe-4571-96e0-dcd47a4af035
+ogTitle: How to integrate webhooks
+ogDescription: Complete guide to integrating webhooks in Fable.
+ogImage: https://github.com/sid-patri-fable/fable-documentation/assets/155963795/b4e5b310-ef91-4b56-b2f6-6420de9d7fe1
+canonicalUrl: https://help.sharefable.com/Integrate-Demos-with-your-stack/How-to-integrate-webhooks
+ogType: article
+ogUrl: https://help.sharefable.com/Integrate-Demos-with-your-stack/How-to-integrate-webhooks
+---
+import FableEmbed from "../.components/fable-embed";
+
+# How to Integrate Webhooks
+
+Webhooks enable real-time data updates between your systems, enhancing the efficiency and responsiveness of your sales and marketing processes.
+
+Connecting webhooks with Fable is straightforward! The demo below guides you through the webhook integration process.
+
+<FableEmbed src="https://app.sharefable.com/embed/demo/webhook-integration-wwvxqmirws4f12me" />
+
+Here’s a step-by-step guide:
+
+### Step 1: Access the Integrations Tab
+In the Fable app's sidebar, go to the Integrations tab. Scroll to find "Webhook" and click on it. A modal will appear with a "Create a new webhook" button.
+
+<img alt="Integration Tab" src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/ab13bb2f-e8b4-44c4-bff7-f51a9612c580"></img>
+
+### Step 2: Add the Webhook URL
+Enter the webhook URL in the first input field. This URL is where the lead information from your demo will be sent.
+
+<img alt="Webhook URL Input" src="https://documentden-deployments.s3.us-east-1.amazonaws.com/public/f2e5abf6-4b6e-496e-97e0-9e600cc66eec"></img>
+
+### Step 3: Define the Request Body
+Customize the structure of the request body. Fable provides a default structure that includes the first name, last name, email, and demo URL. You can modify this structure to fit your needs.
+
+### Step 4: Add Request Headers
+If your webhook requires authentication, you can add the necessary request headers, such as an auth bearer token. You can add as many headers as your use case requires.
+
+Click "Save," and you're done!
+
+That’s how you can integrate Webhooks with Fable in just four simple steps.
