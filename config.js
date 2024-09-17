@@ -72,8 +72,38 @@ module.exports = {
       navLinks: {
         alignment: "right",
         links: [
-          { title: "Product", url: "https://www.sharefable.com/products" },
-          { title: "Demo Hub", url: "https://app.sharefable.com/hub/seeall/fable-ihxi2rpy9h0u4ivh" },
+          {
+            title: "Product",
+            subtitle: "The ultimate demo platform for all your GTM needs",
+            sublinks: [
+              {
+                title: "Interactive Demo",
+                subtitle: "Engage prospects, close more deals & simplify onboarding with AI-powered demos.",
+                logo: "https://www.sharefable.com/logo/marketing-logo.svg",
+                url: "https://www.sharefable.com/products/interactive-demo",
+              },
+              {
+                title: "Demo Hub",
+                subtitle: "Organize, personalize, and share your interactive demos effortlessly.",
+                logo: "https://www.sharefable.com/logo/sales-logo.svg",
+                url: "https://www.sharefable.com/products/demo-hub",
+              },
+            ],
+            banner: {
+              title: "Customers are raving about us on G2!",
+              heading: "Rated 4.9 on G2 & trusted by GTM teams across the world",
+              description:
+                "",
+              cta: {
+                title: "Check it out",
+                url: "https://www.g2.com/products/pyxis-voyager-inc-fable/reviews",
+              },
+              image: {
+                url: "https://www.sharefable.com/g2-badges/usersLoveUs.svg",
+              }
+            },
+          },
+          { title: "Quilly", url: "https://www.sharefable.com/products/quilly" },
           {
             title: "Solutions",
             subtitle: "The ultimate demo platform for all your GTM needs",
