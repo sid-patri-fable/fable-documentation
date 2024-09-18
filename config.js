@@ -24,7 +24,7 @@ module.exports = {
     "Introduction/Fable-Chrome-Extension.mdx",
     "Capturing-Demos/Overview.mdx",
     "Capturing-Demos/Using-the-Extension.mdx",
-    "Capturing-Demos/Adding-Additional-Captures.mdx",
+    "Capturing-Demos/Test/Adding-Additional-Captures.mdx",
     "Editing-Demos/Overview.mdx",
     "Editing-Demos/Types-of-Guides.mdx",
     "Editing-Demos/Editing-a-Text-Guide-Message.mdx",
