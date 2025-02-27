@@ -219,6 +219,7 @@ const MenuItemMobile = (props) => {
               transition: 'all 0.3s ease-out'
             }}
             alt="icon"
+            referrerpolicy="no-referrer" 
           />
         </div>
       ) : (
@@ -278,6 +279,7 @@ function Menu(props) {
             transition: 'all 0.3s ease-out'
           }}
           alt="icon"
+          referrerpolicy="no-referrer" 
         />
       </span>
       <div
